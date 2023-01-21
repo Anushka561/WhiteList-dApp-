@@ -15,8 +15,7 @@ contract Whitelist {
     // NOTE: Don't change this variable name, as it will be part of verification
     uint8 public numAddressesWhitelisted;
 
-    // Setting the Max number of whitelisted addresses
-    // User will put the value at the time of deployment
+    
     constructor(uint8 _maxWhitelistedAddresses) {
         maxWhitelistedAddresses =  _maxWhitelistedAddresses;
     }
